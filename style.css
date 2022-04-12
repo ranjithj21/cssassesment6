@@ -1,0 +1,234 @@
+body:active{
+    transform: translateY(-50px);
+}
+.sahara{
+    font-size: 70px;
+    color: white;
+    position: relative;
+    top: 190px;
+    left: 100px;
+    font-weight: 600;
+}
+body{
+    background-image: url("./sharadesert.jpg");
+    transition: 0.2s all linear;
+    background-size: cover;
+}
+.lorem1{
+    font-size: 16px;
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 110px;
+}
+.explore{
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    width: 120px;
+    height: 15px;
+    padding: 10px;
+    position: relative;
+    left: 110px;
+    top: 210px;
+}
+.logo{
+    position: relative;
+    bottom: 170px;
+    left: 120px;
+    width: 70px;
+}
+.rev{
+    display: flex;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 20px;
+    left: 700px;
+    width: 400px;
+    height: 80px;
+    color: white;
+    padding: 5px;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    background-color: transparent;
+    border: 1px solid;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+}
+.west{
+    width: 170px;
+    height: 170px;
+    border-radius: 15px;
+    position: absolute;
+    top:80px;
+    left: 600px;
+    padding: 20px;
+    color: white;
+    background-image: url('./westdesert.png');
+    background-size: cover;
+    transition: 0.2s linear;
+}
+.gaby{
+    width: 170px;
+    height: 170px;
+    border-radius: 15px;
+    position: absolute;
+    top: 80px;
+    left: 850px;
+    padding: 20px;
+    color: white;
+    background-image: url('./rock.png');
+    background-size: cover;
+    transition: 0.2s linear;
+}
+.giza{
+    width: 170px;
+    height: 170px;
+    border-radius: 15px;
+    position: absolute;
+    top: 310px;
+    left: 600px;
+    padding: 20px;
+    color: white;
+    background-image: url('./giza.png');
+    background-size: cover;
+    transition: 0.2s linear;
+}
+.hari{
+    width: 170px;
+    height: 170px;
+    border-radius: 15px;
+    position: absolute;
+    top: 310px;
+    left: 850px;
+    padding: 20px;
+    color: white;
+    background-image: url('./kalahari.png');
+    background-size: cover;
+    transition: 0.2s linear;
+}
+.west:hover{
+    
+    transform: translateY(-10px);
+}
+.gaby:hover{
+    
+    transform: translateY(-10px);
+}
+.giza:hover{
+    
+    transform: translateY(-10px);
+}
+.hari:hover{
+    
+    transform: translateY(-10px);
+}
+.menu:hover{
+    background-color: rgb(205, 202, 202);
+}
+
+@media (max-width:1000px) {
+
+    .logo{
+        position: absolute;
+        bottom:90%;
+        width:5%;
+        left: 20px;
+    }
+    .sahara{
+        position: absolute;
+        top: 10%;
+        left: 2%;
+        font-size: 130%;
+    }
+    .lorem1{
+        position: absolute;
+        top: 15%;
+        left: 2%;
+    }
+    .explore{
+        position: absolute;
+        top: 26%;
+        left: 2%;
+    }
+
+    .rev{
+        display: flex;
+        border: 2px solid transparent;
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        width: 40%;
+        height: 10%;
+        color: white;
+        padding: 5px;
+        justify-content: space-evenly;
+    }
+    .west{
+        width: 50%;
+        height: 50%;
+        border-radius: 15px;
+        position: absolute;
+        top: 35%;
+        left: 2%;
+        padding: 20px;
+        color: white;
+        background-image: url('./westdesert.png');
+        background-size: cover;
+        transition: 0.2s linear;
+    }
+    .gaby{
+        width: 50%;
+        height: 50%;
+        border-radius: 15px;
+        position: absolute;
+        top: 100%;
+        left: 2%;
+        padding: 20px;
+        color: white;
+        background-image: url('./rock.png');
+        background-size: cover;
+        transition: 0.2s linear;
+    }
+    .giza{
+        width: 50%;
+        height: 50%;
+        border-radius: 15px;
+        position: absolute;
+        top: 160%;
+        left: 2%;
+        padding: 20px;
+        color: white;
+        background-image: url('./giza.png');
+        background-size: cover;
+        transition: 0.2s linear;
+    }
+    .hari{
+        width: 50%;
+        height: 50%;
+        border-radius: 15px;
+        position: absolute;
+        top: 220%;
+        left: 2%;
+        padding: 20px;
+        color: white;
+        background-image: url('./kalahari.png');
+        background-size: cover;
+        transition: 0.2s linear;
+    }         
+    .menu:hover{
+        background-color: rgb(205, 202, 202);
+    }
+
+}
